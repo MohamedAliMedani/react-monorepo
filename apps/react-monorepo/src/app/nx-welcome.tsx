@@ -445,7 +445,7 @@ export function NxWelcome({title}: {title: string}) {
                 </svg>
                 <span>You&apos;re up and running</span>
               </h2>
-              <a href='#commands'> What&apos;s next? </a>
+              <a href='inventory'> What&apos;s next? </a>
             </div>
             <div className='logo-container'>
               <svg fill='currentColor' role='img' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>

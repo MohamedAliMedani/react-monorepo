@@ -1,7 +1,7 @@
 import { StrictMode } from 'react';
 import * as ReactDOM from 'react-dom/client';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import App from './app/app';
+import AppI from './app/app';
 import { NInventory } from '@react-monorepo/products';
 
 const root = ReactDOM.createRoot(
@@ -11,7 +11,7 @@ root.render(
   <StrictMode>
     <BrowserRouter>
       {/* <Routes>
-        <Route path="/app" element={<App />} />
+        <Route path="/inventory" element={<AppI />} />
       </Routes> */}
       <NInventory />
     </BrowserRouter>
